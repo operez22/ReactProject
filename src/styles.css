@@ -1,0 +1,103 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background gradient (BLUE VERSION) */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe); /* Blue gradient */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Main container */
+.app-container {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #003366; /* Deep navy for contrast */
+}
+
+/* Grid layout (CSS Grid requirement) */
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Fact card */
+.fact-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Cat image */
+.cat-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Fact text */
+.fact-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Button */
+.new-fact-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  background: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.new-fact-btn:hover {
+  background: #005fcc;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: #003366;
+}
+
+footer a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive layout */
+@media ;
