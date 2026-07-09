@@ -48,7 +48,7 @@ export default function App() {
         <p>
           View the code on GitHub:{" "}
           <a
-            href="https://github.com/YOUR-USERNAME/YOUR-REPO"
+            href="https://github.com/operez22/ReactProject"
             target="_blank"
             rel="noopener noreferrer"
           >
